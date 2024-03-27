@@ -1,0 +1,20 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "This is a simple assignment for the test purpose.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "Muhammad Ahmad Mahmood",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
+    "nodemon": "^3.1.0"
+  }
+}
